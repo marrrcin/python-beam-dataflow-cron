@@ -1,0 +1,5 @@
+cron:
+- description: trigger dataflow test
+  url: /start-dataflow
+  schedule: every 30 mins
+  target: default
