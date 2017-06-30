@@ -1,4 +1,9 @@
 # Google DataFlow python - App Engine deployment
+Full description and implementation details are in my blogpost: 
+
+http://zablo.net/blog/post/python-apache-beam-google-dataflow-cron
+
+---
 This repository contains basic project, which can be used as an example of how to deploy Google Dataflow (Apache Beam) pipeline to App Engine in order to run it as as CRON job.
 *It only works on App Engine Flex Environment*, due to I/O used by Apache Beam (on App Engine Standard it throws an error about Read-only file system).
 ## Description
